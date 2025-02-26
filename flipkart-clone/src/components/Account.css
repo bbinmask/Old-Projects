@@ -1,0 +1,32 @@
+.account__container {
+  min-height: 200px;
+  min-width: 50%;
+  padding: 0px 20px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: larger;
+  background-color: wheat;
+  border-bottom: 2px solid #9c9c9c;
+}
+.heading__div {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 10px;
+}
+.wallet__div {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+}
+.wallet {
+  font-family: monospace;
+}
+.wallet__text {
+  padding-right: 5px;
+}
+.wallet__bal {
+  font-size: small;
+}
+.add__bal {
+  border-top: 1px solid #ededed;
+}

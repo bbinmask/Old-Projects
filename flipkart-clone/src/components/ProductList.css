@@ -1,0 +1,113 @@
+.product {
+  background-color: white;
+  padding: 10px;
+  margin: 5px;
+  width: 40%;
+  max-height: fit-content;
+  align-content: space-between;
+  display: flex;
+  flex-direction: column;
+}
+
+.product__list {
+  width: 95%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.product__image {
+  width: 100%;
+}
+
+.tags-div {
+  font-size: 80%;
+  padding: 5px 0px;
+  display: flex;
+  width: 100%;
+  float: left;
+  justify-content: space-around;
+}
+
+.product__info {
+  margin-top: 10px;
+}
+
+.product__title {
+  font-size: 16px;
+  font-weight: bold;
+  color: black;
+}
+
+.product__description {
+  font-size: 90%;
+}
+
+.price-div {
+  display: flex;
+  gap: 5px;
+  align-items: baseline;
+}
+
+.product__total__price {
+  margin-top: 5px;
+  font-size: 100%;
+  color: black;
+}
+
+.product__price {
+  font-size: 70%;
+  text-decoration: line-through;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.product__discount {
+  font-size: 60%;
+  color: green;
+  font-weight: 600;
+}
+
+.btn__div {
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+}
+
+.product__add__button:hover,
+.product__remove__button:hover,
+.wishlist__button:hover {
+  background-color: #f6ac34;
+}
+
+.product__add__button,
+.product__remove__button,
+.wishlist__button {
+  font-family: Roboto, "Arial" sans-serif;
+  font-size: 40%;
+  padding: 0.5em 1em;
+  width: 40%;
+  font-weight: 600;
+  margin-top: 10px;
+  color: #ffffff;
+}
+
+.product__add__button {
+  background-color: #ff9f00;
+}
+
+.product__remove__button {
+  background-color: rgb(229, 0, 0);
+  border: none;
+}
+
+.wishlist__button {
+  background-color: rgb(255, 38, 0);
+  border: none;
+}
+
+@media screen and (min-width: 768px) {
+  .product {
+    width: 30%;
+  }
+}
